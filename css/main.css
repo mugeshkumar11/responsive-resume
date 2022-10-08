@@ -8,25 +8,24 @@
     margin: auto;
    
 }
-.header{
- text-align: center;
-}
 .header h1{
 margin-top: 20px;
 margin-bottom: 10px;
 font-size: 28px;
 font-weight: 900;
+text-align: center;
 }
 .header p{
     font-size: 13px;
     line-height: 28px;
+    text-align: center;
 }
 .header hr{
     margin-bottom: 10px;
 }
 .header span{
     font-weight: bolder;
-    font-size: 16;
+    font-size: 16px;
 }
 .header a{
     text-decoration: none;
@@ -37,17 +36,16 @@ font-weight: 900;
         width: 92%;
         margin: auto;
     }
-    .header{
-        text-align: center;
-       }
        .header h1{
        margin-top: 20px;
        font-size: 35px;
        font-weight: 900;
+       text-align: center;
        }
        .header p{
            font-size: 16px;
            line-height: 28px;
+           text-align: center;
        }
        .header hr{
            margin-bottom: 10px;
@@ -64,18 +62,17 @@ font-weight: 900;
         margin: auto;
        
     }
-    .header{
-        text-align: center;
-       }
        .header h1{
        margin-top: 20px;
        margin-bottom: 10px;
+       text-align: center;
        font-size: 40px;
        font-weight: 900;
        }
        .header p{
            font-size: 18px;
            line-height: 32px;
+           text-align: center;
        }
        .header hr{
            margin-bottom: 10px;
@@ -100,6 +97,7 @@ margin-bottom: 15px;
 }
 .objective p{
     font-size: 14px;
+    margin-left: 20px;
     line-height: 18px;
     padding-bottom: 10px;
 }
@@ -118,6 +116,7 @@ margin-bottom: 15px;
         .objective p{
             font-size: 16px;
             line-height: 18px;
+            margin-left: 20px;
             padding-bottom: 10px;
         }
 }
@@ -137,8 +136,353 @@ margin-bottom: 15px;
         .objective p{
             font-size: 18px;
             line-height: 18px;
+            margin-left: 20px;
             padding-bottom: 10px;
         }
 }
 /*obective end*/
 /*education start */
+
+.container{
+    width: 100%;
+    margin: auto;
+   
+}
+.education h2{
+font-size: 23px;
+font-weight: 600;
+margin-top: 10px;
+margin-bottom: 15px;
+}
+.education p{
+    font-size: 14px;
+    line-height: 18px;
+    padding-bottom: 10px;
+    margin-left: 20px;
+}
+.education span{
+    font-weight: bolder;
+    font-size: 16px;
+}
+/*ipad mini*/
+@media (min-width:768px){
+    .container{
+        width: 92%;
+        margin: auto;
+    }
+    .education h2{
+        font-size: 28px;
+        font-weight: 600;
+        margin-top: 10px;
+        margin-bottom: 15px;
+        }
+        .education p{
+            font-size: 16px;
+            line-height: 18px;
+            padding-bottom: 10px;
+            margin-left: 20px;
+        }
+        .education span{
+            font-weight: bolder;
+            font-size: 20px;
+        }
+}
+/*nest hub*/
+@media (min-width:1024px){
+    .container{
+        width: 85%;
+        margin: auto;
+       
+    }
+    .education h2{
+        font-size: 35px;
+        font-weight: 600;
+        margin-top: 10px;
+        margin-bottom: 15px;
+        }
+        .education p{
+            font-size: 18px;
+            line-height: 18px;
+            padding-bottom: 10px;
+            margin-left: 20px;
+        }
+        .education span{
+            font-weight: bolder;
+            font-size: 22px;
+        }
+}
+/*education end */
+/*key skils start */
+.container{
+    width: 100%;
+    margin: auto;
+   
+}
+.keyskils h2{
+font-size: 23px;
+font-weight: 600;
+margin-top: 10px;
+margin-bottom: 15px;
+}
+.keyskils p{
+    font-size: 14px;
+    line-height: 18px;
+    padding-bottom: 10px;
+    margin-left: 20px;
+}
+
+/*ipad mini*/
+@media (min-width:768px){
+    .container{
+        width: 92%;
+        margin: auto;
+    }
+    .keyskils h2{
+        font-size: 28px;
+        font-weight: 600;
+        margin-top: 10px;
+        margin-bottom: 15px;
+        }
+        .keyskils p{
+            font-size: 16px;
+            line-height: 18px;
+            padding-bottom: 10px;
+            margin-left: 20px;
+        }
+       
+}
+/*nest hub*/
+@media (min-width:1024px){
+    .container{
+        width: 85%;
+        margin: auto;
+       
+    }
+    .keyskils h2{
+        font-size: 35px;
+        font-weight: 600;
+        margin-top: 10px;
+        margin-bottom: 15px;
+        }
+        .keyskils p{
+            font-size: 18px;
+            line-height: 18px;
+            padding-bottom: 10px;
+            margin-left: 20px;
+        }
+      
+}
+/*key skils end */
+/*activities start */
+.container{
+    width: 100%;
+    margin: auto;
+   
+}
+.activities h2{
+font-size: 23px;
+font-weight: 600;
+margin-top: 10px;
+margin-bottom: 15px;
+}
+.activities p{
+    font-size: 14px;
+    line-height: 18px;
+    padding-bottom: 10px;
+    margin-left: 20px;
+}
+
+/*ipad mini*/
+@media (min-width:768px){
+    .container{
+        width: 92%;
+        margin: auto;
+    }
+    .activities h2{
+        font-size: 28px;
+        font-weight: 600;
+        margin-top: 10px;
+        margin-bottom: 15px;
+        }
+        .activities p{
+            font-size: 16px;
+            line-height: 18px;
+            padding-bottom: 10px;
+            margin-left: 20px;
+        }
+       
+}
+/*nest hub*/
+@media (min-width:1024px){
+    .container{
+        width: 85%;
+        margin: auto;
+       
+    }
+    .activities h2{
+        font-size: 35px;
+        font-weight: 600;
+        margin-top: 10px;
+        margin-bottom: 15px;
+        }
+        .activities p{
+            font-size: 18px;
+            line-height: 18px;
+            padding-bottom: 10px;
+            margin-left: 20px;
+        }
+      
+}
+/*activities end */
+/*personal start */
+.container{
+    width: 100%;
+    margin: auto;
+   
+}
+.personal h2{
+font-size: 23px;
+font-weight: 600;
+margin-top: 10px;
+margin-bottom: 15px;
+}
+.personal p{
+    font-size: 14px;
+    line-height: 18px;
+    padding-bottom: 10px;
+    margin-left: 20px;
+}
+.personal span{
+    font-weight: bolder;
+    font-size: 16px;
+}
+
+/*ipad mini*/
+@media (min-width:768px){
+    .container{
+        width: 92%;
+        margin: auto;
+    }
+    .personal h2{
+        font-size: 28px;
+        font-weight: 600;
+        margin-top: 10px;
+        margin-bottom: 15px;
+        }
+        .personal p{
+            font-size: 16px;
+            line-height: 18px;
+            padding-bottom: 10px;
+            margin-left: 20px;
+        }
+        .personal span{
+            font-weight: bolder;
+            font-size: 20px;
+        }
+       
+}
+/*nest hub*/
+@media (min-width:1024px){
+    .container{
+        width: 85%;
+        margin: auto;
+       
+    }
+    .personal h2{
+        font-size: 35px;
+        font-weight: 600;
+        margin-top: 10px;
+        margin-bottom: 15px;
+        }
+        .personal p{
+            font-size: 18px;
+            line-height: 18px;
+            padding-bottom: 10px;
+            margin-left: 20px;
+        }
+        .personal span{
+            font-weight: bolder;
+            font-size: 22px;
+        }
+      
+}
+/*personal end */
+/*footer start */
+.container{
+    width: 100%;
+    margin: auto;
+   
+}
+.footer h2{
+font-size: 23px;
+font-weight: 600;
+margin-top: 10px;
+text-align: center;
+margin-bottom: 15px;
+}
+.footer p{
+    font-size: 14px;
+    line-height: 18px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+.footer h3{
+    font-weight: bolder;
+    font-size: 16px;
+    padding-bottom: 20px;
+}
+
+/*ipad mini*/
+@media (min-width:768px){
+    .container{
+        width: 92%;
+        margin: auto;
+    }
+    .footer h2{
+        font-size: 28px;
+        font-weight: 600;
+        margin-top: 10px;
+        text-align: center;
+        margin-bottom: 15px;
+        }
+        .footer p{
+            font-size: 16px;
+            line-height: 18px;
+            padding-bottom: 10px;
+            text-align: center;
+        }
+        .footer h3{
+            font-weight: bolder;
+            font-size: 20px;
+            padding-bottom: 20px;
+        }
+       
+}
+/*nest hub*/
+@media (min-width:1024px){
+    .container{
+        width: 85%;
+        margin: auto;
+       
+    }
+    .footer h2{
+        font-size: 35px;
+        font-weight: 600;
+        margin-top: 10px;
+        text-align: center;
+        margin-bottom: 15px;
+        }
+        .footer p{
+            font-size: 18px;
+            line-height: 18px;
+            padding-bottom: 10px;
+           text-align: center;
+        }
+        .footer h3{
+            font-weight: bolder;
+            font-size: 22px;
+            padding-bottom: 20px;
+        }
+      
+}
+
